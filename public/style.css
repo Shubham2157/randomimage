@@ -1,0 +1,38 @@
+p{
+    text-align: center;
+    background-color: aqua;
+    padding: 10px;
+    size: 80px;
+    font-weight : bold;
+    border-radius: 20px;
+}
+button{
+    background-color: aqua;
+    border-style: none;
+    height: 40px;
+    width: 100px;
+    padding: 10px;
+    color: brown;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight : bold;
+    margin-top: 10px;
+    text-align: center;
+    transition-delay: 3ms;
+}
+.image{
+    height: 510px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    border: 10px blueviolet;
+    
+}
+button:hover{
+    transition-delay: 5ms;
+    background-color: brown;
+    color: aqua;
+    font-weight : bold;
+}
