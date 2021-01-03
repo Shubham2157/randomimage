@@ -4,6 +4,7 @@ var head = document.querySelector("p")
 
 var isbrown = false;
 
+
 setInterval(function(){
     if(isbrown){
         head.style.background = "aqua"
@@ -14,7 +15,7 @@ setInterval(function(){
         head.style.color = "aqua";
     }
     isbrown = !isbrown
-}, 1000)
+}, 2000)
 
 nextBtn.addEventListener("click", function(){
     location.reload();

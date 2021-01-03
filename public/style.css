@@ -19,7 +19,6 @@ button{
     font-weight : bold;
     margin-top: 10px;
     text-align: center;
-    transition-delay: 3ms;
 }
 .image{
     height: 510px;
@@ -31,7 +30,8 @@ button{
     
 }
 button:hover{
-    transition-delay: 5ms;
+    transition-delay: 500ms;
+    animation-delay: 2s;
     background-color: brown;
     color: aqua;
     font-weight : bold;
@@ -43,8 +43,8 @@ button:hover{
         display: block;
         margin-left: auto;
         margin-right: auto;
-        height: 50%;
-        width: 50%;
+        height: 400px;
+        width: 300px;
     }
 }
 
@@ -54,7 +54,18 @@ button:hover{
         display: block;
         margin-left: auto;
         margin-right: auto;
-        height: 50%;
-        width: 50%;
+        height: 500px;
+        width: 400px;
+    }
+}
+
+@media only screen and (max-width: 400px)
+{
+    .image{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        height: 300px;
+        width: 250px;
     }
 }
