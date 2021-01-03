@@ -36,3 +36,25 @@ button:hover{
     color: aqua;
     font-weight : bold;
 }
+
+@media only screen and (max-width: 600px)
+{
+    .image{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        height: 50%;
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width: 900px)
+{
+    .image{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        height: 50%;
+        width: 50%;
+    }
+}
